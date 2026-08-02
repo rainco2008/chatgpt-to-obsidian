@@ -1,4 +1,6 @@
-# Codex Archive Importer
+# ChatGPT to Obsidian Archive Importer
+
+**ChatGPT to Obsidian Archive Importer** is an Obsidian plugin that imports Codex Desktop, Codex CLI  and ChatGPT Desktop sessions from local JSONL files into Obsidian notes. It supports active and archived sessions.
 
 Version 0.3.0 adds an **experimental ChatGPT Desktop cache index importer**. It scans the local Windows desktop cache for conversation IDs, titles, URLs, and cached update metadata, then creates index-only Obsidian notes. Because the desktop cache may be partial, these notes are marked `cache_only: true` and do not claim to contain full transcripts.
 
@@ -34,8 +36,8 @@ Codex stores local conversation rollouts as JSON Lines files under the Codex dat
 
 ### Ready-built manual installation
 
-1. Download `codex-archive-importer-0.1.0-install.zip`.
-2. Extract the included `codex-archive-importer` folder into:
+1. Download `chatgpt-archive-importer` folder in this project.
+2. Copy the `chatgpt-archive-importer` folder into:
 
    ```text
    <your-vault>/.obsidian/plugins/
@@ -55,11 +57,11 @@ macOS/Linux: ~/.codex
 
 ## Commands
 
-- `Codex Archive Importer: Import or update all conversations`
-- `Codex Archive Importer: Import or update active conversations`
-- `Codex Archive Importer: Import or update archived conversations`
-- `Codex Archive Importer: Preview import source`
-- `Codex Archive Importer: Force rebuild all imported conversations`
+- `Chatgpt Archive Importer: Import or update all conversations`
+- `Chatgpt Archive Importer: Import or update active conversations`
+- `Chatgpt Archive Importer: Import or update archived conversations`
+- `Chatgpt Archive Importer: Preview import source`
+- `Chatgpt Archive Importer: Force rebuild all imported conversations`
 
 ## Output
 
@@ -120,7 +122,7 @@ npm test
 Release files are generated under:
 
 ```text
-release/codex-archive-importer/
+release/chatgpt-archive-importer/
 ```
 
 ## Publishing to the Obsidian community directory
@@ -138,7 +140,7 @@ MIT
 
 # 中文说明
 
-Codex Archive Importer 是一个仅限桌面端使用的 Obsidian 插件，用于把 Codex Desktop／Codex CLI 本地会话导入为 Markdown 笔记。
+Chatgpt Archive Importer 是一个仅限桌面端使用的 Obsidian 插件，用于把 Codex Desktop／Codex CLI 本地会话导入为 Markdown 笔记。
 
 主要特点：
 
