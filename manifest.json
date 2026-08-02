@@ -1,0 +1,9 @@
+{
+  "id": "codex-archive-importer",
+  "name": "Codex Archive Importer",
+  "version": "0.3.0",
+  "minAppVersion": "1.5.0",
+  "description": "Import Codex conversations and experimental ChatGPT Desktop cache indexes into Obsidian.",
+  "author": "Zhenke Guo",
+  "isDesktopOnly": true
+}

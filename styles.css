@@ -1,0 +1,38 @@
+.codex-importer-summary {
+  max-height: 65vh;
+  overflow: auto;
+}
+
+.codex-importer-summary table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.codex-importer-summary th,
+.codex-importer-summary td {
+  padding: 0.35rem 0.5rem;
+  border-bottom: 1px solid var(--background-modifier-border);
+  text-align: left;
+  vertical-align: top;
+}
+
+.codex-importer-errors {
+  max-height: 14rem;
+  overflow: auto;
+  white-space: pre-wrap;
+  font-family: var(--font-monospace);
+  font-size: var(--font-ui-smaller);
+}
+
+.codex-importer-path-status {
+  margin-top: 0.35rem;
+  color: var(--text-muted);
+}
+
+.codex-importer-path-status.is-valid {
+  color: var(--text-success);
+}
+
+.codex-importer-path-status.is-invalid {
+  color: var(--text-error);
+}

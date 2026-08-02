@@ -1,0 +1,15 @@
+{
+  "name": "codex-archive-importer",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Obsidian community plugin for importing Codex Desktop conversations and experimental ChatGPT Desktop cache indexes.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/build-release.mjs",
+    "test": "npm run build && node test/selftest.cjs",
+    "package": "npm run test && node scripts/package.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "5.8.3"
+  }
+}
